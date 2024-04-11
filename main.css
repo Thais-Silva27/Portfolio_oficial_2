@@ -1,0 +1,72 @@
+li {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding-bottom: 18px;
+}
+header .profile-avatar {
+  display: block;
+  margin: 0 auto 18px;
+  border-radius: 100px;
+}
+body {
+  /*background-color: #0a3d62;*/
+  /*mapas*/
+  color: #81e9e9;
+}
+.profile-bio h2 {
+  color: #dde5e9;
+}
+.profile-bio {
+  text-align: center;
+}
+
+.profile-bio-description {
+  font-size: 21px;
+  cursor:pointer;
+  }
+
+.projects-list {
+  margin-top: 32px;
+}
+.projects-list-item a {
+  text-decoration: none;
+  background-color: #0c8070;
+  display: block;
+  padding: 8px 12px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #011d1f;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #4cd0e7;
+  transition: all ease 0.5s;
+}
+.projects-list-item a:hover {
+  color: #51eaf5;
+  background-color: transparent;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width:400px) and (max-width: 767px) {
+  .container {
+    max-width: 60%;
+  }
+}
+@media (min-width:768px) and (max-width:1023px) {
+  .container {
+    max-width: 70%;
+  }
+}
