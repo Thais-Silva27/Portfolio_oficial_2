@@ -1,0 +1,98 @@
+li {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding-bottom: 18px;
+}
+header .profile-avatar {
+  display: block;
+  margin: 0 auto 18px;
+  border-radius: 100px;
+}
+body {
+  /*background-color: #0a3d62;*/
+  /*mapas*/
+  color: #81e9e9;
+}
+.profile-bio h2 {
+  color: #dde5e9;
+}
+.profile-bio {
+  text-align: center;
+}
+.profile-bio-subtitle {
+  font-size: 25px;
+  margin-bottom: 8px;
+    /*mixins */
+}
+.profile-bio-description {
+  font-size: 30px;
+  }
+.social-links {
+  display: flex;
+  /*itens lado a lado*/
+  justify-content: space-between;
+  /*espacamento entre os itens*/
+  max-width: 240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.social-links img {
+  transition: all ease 0.3s;
+}
+.social-links img:hover {
+  transform: scale(1.3);
+}
+.projects-list {
+  margin-top: 32px;
+}
+.projects-list-item a {
+  text-decoration: none;
+  background-color: #0c8070;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #011d1f;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #4cd0e7;
+  transition: all ease 0.5s;
+}
+.projects-list-item a:hover {
+  color: #51eaf5;
+  background-color: transparent;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+@media (min-width:768px) and (max-width:1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+.portfolio {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 10px;
+  padding: 25px;
+  height: 15px;
+  color: #cae8e9;
+  
+}
