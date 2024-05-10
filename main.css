@@ -6,14 +6,27 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
-header {
-  padding-bottom: 18px;
+
+.arrow {
+  margin-top: -15px;
+  cursor:pointer;
+  margin-left: 60px;
+  margin-bottom: -72px;
+  padding-bottom: 35px;
+  
 }
+
+header {
+  padding-bottom: 25px;
+}
+
 header .profile-avatar {
   display: block;
   margin: 0 auto 18px;
   border-radius: 100px;
+  margin-top: 35px;
 }
+
 body {
   /*background-color: #0a3d62;*/
   /*mapas*/
@@ -60,13 +73,58 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
 @media (min-width:400px) and (max-width: 767px) {
   .container {
-    max-width: 60%;
+    max-width: 50%;
+    
   }
 }
 @media (min-width:768px) and (max-width:1023px) {
   .container {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
+
+@media (min-width:400px) and (max-width: 767px) {
+  .arrow {
+    margin-top: 80px;
+    cursor:pointer;
+    margin-bottom: -10px;
+    
+   
+  }
+  }
+
+  @media (min-width:400px) and (max-width: 767px) {
+    .arrow img {
+      margin-top: 150px;
+      cursor:pointer;
+      margin-bottom: -30px;
+      margin-left: -100px;
+      
+     
+    }
+    }
+  
+    @media (min-width:150px) and (max-width: 750px) {
+      .arrow {
+        margin-top: 190px;
+        cursor:pointer;
+        margin-bottom: -150px;
+        
+       
+      }
+      }
+    
+      @media (min-width:150px) and (max-width: 750px) {
+        .arrow img {
+          margin-top: -80px;
+          cursor:pointer;
+          margin-bottom:10px;
+          margin-left: -50px;
+          
+         
+        }
+        }
+      
