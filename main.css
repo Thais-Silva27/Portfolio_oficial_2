@@ -7,8 +7,13 @@ li {
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 150%;
+}
+
+
 .arrow {
-  margin-top: 95px;
+  margin-top: 255px;
   cursor:pointer;
   margin-left: 60px;
   margin-bottom: -72px;
@@ -24,13 +29,14 @@ header .profile-avatar {
   display: block;
   margin: 0 auto 18px;
   border-radius: 100px;
-  margin-top: 35px;
+  margin-top: -135px;
 }
 
 body {
-  /*background-color: #0a3d62;*/
-  /*mapas*/
-  color: #81e9e9;
+   color: #3ca2dd;
+   display:flex;
+   margin-left: -100px;
+   margin-right: -101px;
 }
 .profile-bio h2 {
   color: #dde5e9;
@@ -44,12 +50,17 @@ body {
   cursor:pointer;
   }
 
+  .descricao {
+    margin-bottom: -30px;
+    font-size: 18px;
+  }
+
 .projects-list {
   margin-top: 32px;
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #0c8070;
+  background-color: #0c5280;
   display: block;
   padding: 8px 12px;
   margin-bottom: 18px;
@@ -57,11 +68,11 @@ body {
   color: #011d1f;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #4cd0e7;
+  border: 2px solid #2b57e9;
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #51eaf5;
+  color: #789ff5;
   background-color: transparent;
 }
 .container {
@@ -73,6 +84,8 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 @media (min-width:400px) and (max-width: 767px) {
   .container {
@@ -88,31 +101,15 @@ body {
 
 @media (min-width:400px) and (max-width: 767px) {
   .arrow {
-    margin-top: 80px;
-    cursor:pointer;
-    margin-bottom: -10px;
-    
-   
+    cursor:pointer;    
   }
   }
 
-  @media (min-width:400px) and (max-width: 767px) {
-    .arrow img {
-      margin-top: 150px;
-      cursor:pointer;
-      margin-bottom: -30px;
-      margin-left: -100px;
-      
-     
-    }
-    }
-  
-    @media (min-width:150px) and (max-width: 750px) {
+     @media (min-width:150px) and (max-width: 750px) {
       .arrow {
         margin-top: 190px;
         cursor:pointer;
-        margin-bottom: -150px;
-        
+        margin-bottom: -150px;       
        
       }
       }
@@ -121,10 +118,19 @@ body {
         .arrow img {
           margin-top: -80px;
           cursor:pointer;
-          margin-bottom:10px;
-          margin-left: -50px;
+          margin-bottom:100px;
+          margin-left: -70px;
           
          
         }
+        }
+      
+        @media (min-width:400px) and (max-width: 767px) {
+          .descricao {
+            margin-bottom: -30px;
+            font-size: 20px;
+            text-align: justify;
+            
+          }
         }
       
